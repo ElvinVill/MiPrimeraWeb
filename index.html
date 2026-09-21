@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página</title>
+    <style>
+        /* Estilos CSS integrados */
+        body {
+            background-color: white; /* Resto de la página en blanco */
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black; /* Fondo del encabezado en negro */
+            color: white;            /* Letras en blanco para que contrasten */
+            padding: 10px 10px;
+            
+            /* Esto alinea las imágenes y el texto en la misma línea */
+            display: flex;
+            justify-content: space-between; /* Separa los elementos a los extremos */
+            align-items: center;            /* Los centra verticalmente */
+        }
+
+        header h1 {
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        .icono-header{
+            width: 50px;
+            height: auto;
+
+        }
+
+        main {
+            padding: 30px;
+        }
+
+        .hola-mundo {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado separado -->
+    <header>
+       <a href="index.html"><img src="imagenes/hola-mundo.png" alt="Hola Mundo" class="icono-header"></a> 
+        <h1>MI PRIMERA PÁGINA WEB</h1>
+        <img src="imagenes/hola-mundo.png" alt="Hola Mundo" class="icono-header">
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+        <p class="hola-mundo">Hola mundo</p>
+
+        <h2>Cantantes favoritos:</h2>
+        <!-- Lista ordenada (<ol>) -->
+        <ol>
+            <li>Floor Jansen</li>
+            <li>Cristina Scabbia</li>
+            <li>Tobias Sammet</li>
+        </ol>
+    </main>
+
+</body>
+</html>
